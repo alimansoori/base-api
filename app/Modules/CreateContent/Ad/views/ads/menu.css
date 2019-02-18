@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  outline: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: ' ';
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/*html {*/
+  /*background-color: #eee;*/
+  /*box-sizing: border-box;*/
+  /*font-size: 62.5%;*/
+/*}*/
+
+/*body {*/
+  /*overflow: auto;*/
+  /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+  /*!* margin-left: 1rem; *!*/
+  /*direction: rtl;*/
+
+  /*color: #58585a;*/
+  /*font-weight: 400;*/
+  /*background-color: #eee;*/
+/*}*/
+
+.ilya-menu {
+  font-size: 2rem;
+  margin: 1rem 1rem;
+
+  width: 250px;
+}
+.ilya-menu-select {
+  background-color: #f9f7f1;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 1rem;
+}
+
+.ilya-menu-content {
+  background-color: #f9f7f1;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ilya-menu ul {
+  list-style: none;
+  width: 100%;
+  padding: 1rem;
+  /* padding: 1rem; */
+}
+.ilya-menu ul li {
+  position: relative;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.ilya-menu a {
+  list-style: none;
+  cursor: pointer;
+  text-decoration: none;
+  /* color: black; */
+}
+
+.icon-left {
+  position: absolute;
+  left: 0;
+}
+
+.dnone {
+  display: none;
+}

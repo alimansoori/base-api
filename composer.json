@@ -1,0 +1,18 @@
+{
+  "name": "projekt/cms",
+  "authors": [
+    {
+      "name": "Ali mansoori",
+      "email": "alimanssouri221@gmail.com"
+    }
+  ],
+  "minimum-stability": "alpha",
+  "require": {
+    "dmkit/phalcon-jwt-auth": "^1.0",
+    "firebase/php-jwt": "^5.0",
+    "phalcon/incubator": "^3.4",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+  }
+}

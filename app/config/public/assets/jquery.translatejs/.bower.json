@@ -1,0 +1,15 @@
+{
+  "name": "jquery.translatejs",
+  "homepage": "https://github.com/tinoni/translate.js",
+  "version": "0.9.1",
+  "_release": "0.9.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.9.1",
+    "commit": "8113147f2daf85d7fc204a2e429e9172150af833"
+  },
+  "_source": "https://github.com/tinoni/translate.js.git",
+  "_target": "^0.9.1",
+  "_originalSource": "jquery.translatejs",
+  "_direct": true
+}

@@ -1,0 +1,51 @@
+<?php
+return [
+
+    // Translate DataTable
+    'dte_s_empty_table'           => 'ليست هناك بيانات متاحة في الجدول',
+    'dte_s_info'                  => 'إظهار _START_ إلى _END_ من أصل _TOTAL_ مدخل',
+    'dte_s_info_empty'            => 'يعرض 0 إلى 0 من أصل 0 سجل',
+    'dte_s_info_filtered'         => '(منتقاة من مجموع _MAX_ مُدخل)',
+    'dte_s_info_postfix'          => ' ',
+    'dte_s_info_thousands'        => ',',
+    'dte_s_length_menu'           => 'أظهر _MENU_ مدخلات',
+    'dte_s_loading_records'       => 'جارٍ التحميل...',
+    'dte_s_processing'            => 'جارٍ التحميل...',
+    'dte_s_search'                => 'ابحث:',
+    'dte_s_zero_records'          => 'لم يعثر على أية سجلات',
+    'dte_o_paginate_s_first'      => 'الأول',
+    'dte_o_paginate_s_last'       => 'السابق',
+    'dte_o_paginate_s_next'       => 'التالي',
+    'dte_o_paginate_s_previous'   => 'الأخير',
+    'dte_o_aria_s_sortAscending'  => ': تفعيل لترتيب العمود تصاعدياً',
+    'dte_o_aria_s_sortDescending' => ': تفعيل لترتيب العمود تنازلياً',
+
+    // Editor DataTable
+    'dte_create_button'        => 'New',
+    'dte_create_title'         => 'ButtonCreate new entry',
+    'dte_create_submit'        => 'Create',
+    'dte_edit_button'          => 'Edit',
+    'dte_edit_title'           => 'Edit entry',
+    'dte_edit_submit'          => 'Update',
+    'dte_remove_button'        => 'Delete',
+    'dte_remove_title'         => 'Delete',
+    'dte_remove_submit'        => 'Delete',
+    'dte_remove_one_confirm'   => 'Are you sure you wish to delete 1 row?',
+    'dte_remove_multi_confirm' => 'Are you sure you wish to delete %d rows?',
+    'dte_multi_title'          => 'Multi values',
+    'dte_multi_info'           => 'The selected items contain different values for this input. To edit and set all items for this input to the same value, click or tap here, otherwise they will retain their individual values.',
+    'dte_multi_restore'        => 'Restore multiple values',
+    'dte_multi_no_multi'       => 'This entry can be edited individually, but is not part of a group.',
+    'dte_error_system'         => 'An error has occurred, contact the system administrator',
+    'dte_date_time_previous'   => 'Previous',
+    'dte_date_time_next'       => 'Next',
+
+    // Weekdays
+    'monday'    => 'Monday',
+    'tuesday'   => 'Tuesday',
+    'wednesday' => 'Wednesday',
+    'thursday'  => 'Thursday',
+    'friday'    => 'Friday',
+    'saturday'  => 'Saturday',
+    'sunday'    => 'Sunday',
+];
